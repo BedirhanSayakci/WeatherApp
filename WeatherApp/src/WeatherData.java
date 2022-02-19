@@ -24,7 +24,7 @@ public class WeatherData {
 
     public void weatherData(String loc){
 
-    String API_KEY = "dd63128948c764090b7c7322f04d83d2";
+    String API_KEY = "";
 	String LOCATION = loc;
     String urlString = "http://api.openweathermap.org/data/2.5/weather?q=" + LOCATION +  "&appid=" + API_KEY + "&units=metric"; 
 	
